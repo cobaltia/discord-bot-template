@@ -1,4 +1,5 @@
 import { BotClient } from '#lib/BotClient';
+import process from 'node:process';
 
 const bot = new BotClient();
 
