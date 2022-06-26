@@ -1,4 +1,4 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-yarn test && yarn lint --fix=false && yarn test:prettier
+yarn test && yarn lint && yarn prettier && git add -A

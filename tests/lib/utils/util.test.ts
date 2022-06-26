@@ -1,11 +1,11 @@
 import { Listener } from '#lib/structures';
-import { resloveFile } from '#utils/utils';
+import { resolveFile } from '#utils/utils';
 
 describe('Bot', () => {
 	describe('util', () => {
-		describe('resloveFile', () => {
+		describe('resolveFile', () => {
 			test("GIVEN '../../mocks/MockStructure.ts' THEN return instanceOf Listener", async () => {
-				expect(await resloveFile<Listener>(__dirname + '/../../mocks/MockStructure.ts')).toBeInstanceOf(Listener);
+				expect(await resolveFile<Listener>(__dirname + '/../../mocks/MockStructure.ts')).toBeInstanceOf(Listener);
 			});
 		});
 	});
