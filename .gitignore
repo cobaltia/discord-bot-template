@@ -1,0 +1,10 @@
+# Coverage directory used by tools like istanbul
+coverage
+*.lcov
+
+# node
+node_modules
+dist
+
+# yarn
+yarn-error.log
