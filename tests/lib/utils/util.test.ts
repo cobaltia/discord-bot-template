@@ -1,3 +1,4 @@
+import { describe, test, expect } from 'vitest';
 import { Listener } from '#lib/structures';
 import { resolveFile } from '#utils/utils';
 

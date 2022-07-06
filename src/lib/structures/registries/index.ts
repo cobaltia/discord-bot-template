@@ -1,1 +1,1 @@
-export * from './ListenerRegistry';
+export * from './ListenerRegistry.js';

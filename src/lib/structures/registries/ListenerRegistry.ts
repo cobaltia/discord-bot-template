@@ -1,8 +1,8 @@
 import { BotClient } from '#lib/BotClient';
 import { resolveFile } from '#utils/utils';
-import { sync } from 'glob';
-import { Listener } from '../listeners';
-import { logger } from '../logger';
+import { globbySync as sync } from 'globby';
+import { Listener } from '../listeners/index.js';
+import { logger } from '../logger.js';
 
 export async function ListenerRegistry(bot: BotClient) {
 	try {
